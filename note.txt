@@ -1,0 +1,23 @@
+1/ Cài đặt project:
+2/ Chạy project:
+2.1/ Mở terminal ngay tại package.json
+2.2/ Gõ lệnh: npm run start
+*Angular React là thư viện chứ không phải framework
+3/ Tài liệu về ReactJS: https://reactjs.org/docs/getting-started.html
+4/ Flow code reactjs: index.html => index.js => App.js
+5/ reactjs sẽ không hiểu html, mà nó chỉ hiểu jsx(class => className)
+6/ Lý do dùng component là:
+    - dễ quản lý (kiểm soát)
+    - tái sử dụng (ưu tiên hàng đầu)
+7/ Điều kiện để tạo ra một component :
+    - tái sử dụng (ưu tiên hàng đầu)
+    - dễ quản lý (kiểm soát)
+8/ Có 2 dạng component :
+    - class
+    - function
+bonius:
+1/ Một website thường có 2 dạng:
+- Singer page application (chuyển trang mà không bị load) -> do chỉ tải Data
+- Multiple page application (chuyển trang mà bị load) -> ngoài Data còn có HTML, CSS, JS
+2/ Về SEO thì multiple page application tốt hơn singer page application
+3/ ReactJS (singer page application) thì không SEO tốt nhưng NEXTJS (https://nextjs.org/) giúp ReactJS SEO tốt
